@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import Image from 'next/image'
 import mlogo from "../../public/images/Icon.png";
 import mlogo2 from "../../public/images/Icon (1).png";

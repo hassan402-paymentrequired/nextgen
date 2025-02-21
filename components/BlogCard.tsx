@@ -1,11 +1,12 @@
-import Image from 'next/image'
+import Image, { StaticImageData } from 'next/image'
 import React from 'react'
 import UiLink from './UiLink'
 
 type Props = {
     blog: {
+        id: string | number,
         title: string
-        src: string
+        src: string |  StaticImageData,
     }
 }
 
