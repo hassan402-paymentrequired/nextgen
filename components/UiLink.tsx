@@ -5,7 +5,7 @@ const UiLink = ({ des, title, cla }: { des?: string, title: string, cla?: string
     return (
         <Link 
         className={`text-sm text-neutral-900 ${cla}`}
-        href={des}>{title}</Link>
+        href={des ??  '#'}>{title}</Link>
     )
 }
 
